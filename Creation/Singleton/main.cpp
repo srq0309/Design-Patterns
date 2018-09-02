@@ -16,20 +16,24 @@ class Singleton
 public:
     static Singleton *Instance()
     {
-        return p;
+        if (!instance_) {
+            instance_ = new Singleton();
+        }
+        return instance_;
     }
     void SingletonOperation()
     {
-        std::cout << "SingletonOperation" << std::endl;
+        std::cout << "Singleton::SingletonOperation()" << std::endl;
     }
 protected:
     Singleton() {}
 private:
-    static Singleton *p;
+    static Singleton *instance_;
 };
-Singleton* Singleton::p = new Singleton;
+Singleton* Singleton::instance_ = nullptr;
 
 
+// 非线程安全
 int main(int argc, char *argv[])
 {
     auto s = Singleton::Instance();
