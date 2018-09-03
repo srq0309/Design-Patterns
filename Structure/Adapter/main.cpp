@@ -24,10 +24,16 @@ public:
 class Client
 {
 public:
-    void Work(std::shared_ptr<Target> target)
+    Client(std::shared_ptr<Target> target) :
+        target_(target)
     {
-        target->Request();
     }
+    void Work()
+    {
+        target_->Request();
+    }
+private:
+    std::shared_ptr<Target> target_;
 };
 
 // 定义一个已经存在的接口，这个接口需要适配
@@ -53,6 +59,8 @@ public:
 
 int main(int argc, char *argv[])
 {
-    Client().Work(std::make_shared<Adapter>());
+    Client cc(std::make_shared<Adapter>());
+    cc.Work();
+
     system("pause");
 }
