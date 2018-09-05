@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chain Of Responsibility", "Action\Chain Of Responsibility\Chain Of Responsibility.vcxproj", "{C64039A4-9C9A-4E8D-9563-8B9F84FE71F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Command", "Action\Command\Command.vcxproj", "{B13CEA76-418A-421E-81E9-885413D4D82B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{C64039A4-9C9A-4E8D-9563-8B9F84FE71F6}.Release|x64.Build.0 = Release|x64
 		{C64039A4-9C9A-4E8D-9563-8B9F84FE71F6}.Release|x86.ActiveCfg = Release|Win32
 		{C64039A4-9C9A-4E8D-9563-8B9F84FE71F6}.Release|x86.Build.0 = Release|Win32
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Debug|x64.ActiveCfg = Debug|x64
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Debug|x64.Build.0 = Debug|x64
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Debug|x86.Build.0 = Debug|Win32
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Release|x64.ActiveCfg = Release|x64
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Release|x64.Build.0 = Release|x64
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Release|x86.ActiveCfg = Release|Win32
+		{B13CEA76-418A-421E-81E9-885413D4D82B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
