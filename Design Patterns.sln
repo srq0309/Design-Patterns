@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Memento", "Action\Memento\M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observer", "Action\Observer\Observer.vcxproj", "{EBB3299E-0083-417B-A6FC-DD440C873E40}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "State", "Action\State\State.vcxproj", "{E76BE1AA-39D2-4DED-B84D-58909786B5E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{EBB3299E-0083-417B-A6FC-DD440C873E40}.Release|x64.Build.0 = Release|x64
 		{EBB3299E-0083-417B-A6FC-DD440C873E40}.Release|x86.ActiveCfg = Release|Win32
 		{EBB3299E-0083-417B-A6FC-DD440C873E40}.Release|x86.Build.0 = Release|Win32
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Debug|x64.ActiveCfg = Debug|x64
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Debug|x64.Build.0 = Debug|x64
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Debug|x86.Build.0 = Debug|Win32
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Release|x64.ActiveCfg = Release|x64
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Release|x64.Build.0 = Release|x64
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Release|x86.ActiveCfg = Release|Win32
+		{E76BE1AA-39D2-4DED-B84D-58909786B5E6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
