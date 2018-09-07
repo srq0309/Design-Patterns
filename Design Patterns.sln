@@ -25,7 +25,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Structure\Facade\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flyweight", "Structure\Flyweight\Flyweight.vcxproj", "{C5078067-0E40-4A73-BBE4-723C408963EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{ED900D91-CC72-455E-B666-1EDFEFFF8FBB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Structure\Proxy\Proxy.vcxproj", "{ED900D91-CC72-455E-B666-1EDFEFFF8FBB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chain Of Responsibility", "Action\Chain Of Responsibility\Chain Of Responsibility.vcxproj", "{C64039A4-9C9A-4E8D-9563-8B9F84FE71F6}"
 EndProject
@@ -44,6 +44,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "State", "Action\State\State.vcxproj", "{E76BE1AA-39D2-4DED-B84D-58909786B5E6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Action\Strategy\Strategy.vcxproj", "{441542A6-3477-455E-904F-1CAB3D47B532}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TemplateMethod", "Action\TemplateMethod\TemplateMethod.vcxproj", "{3ED018B2-17CB-4048-BC76-36A9E1022833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,14 @@ Global
 		{441542A6-3477-455E-904F-1CAB3D47B532}.Release|x64.Build.0 = Release|x64
 		{441542A6-3477-455E-904F-1CAB3D47B532}.Release|x86.ActiveCfg = Release|Win32
 		{441542A6-3477-455E-904F-1CAB3D47B532}.Release|x86.Build.0 = Release|Win32
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Debug|x64.ActiveCfg = Debug|x64
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Debug|x64.Build.0 = Debug|x64
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Debug|x86.ActiveCfg = Debug|Win32
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Debug|x86.Build.0 = Debug|Win32
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Release|x64.ActiveCfg = Release|x64
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Release|x64.Build.0 = Release|x64
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Release|x86.ActiveCfg = Release|Win32
+		{3ED018B2-17CB-4048-BC76-36A9E1022833}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
