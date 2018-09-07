@@ -32,7 +32,7 @@ public:
 // 具体聚合实现创建相应迭代器的接口，该操作返回ConcreteIterator的一个适当的实例
 template<typename _Ty>
 class ConcreteAggregate:
-    public Aggregate
+    public Aggregate<_Ty>
 {
 };
 
@@ -40,7 +40,7 @@ class ConcreteAggregate:
 // 对该聚合遍历时时跟踪当前位置
 template<typename _Ty>
 class ConcreteIterator :
-    public Iterator
+    public Iterator<_Ty>
 {
 };
 
